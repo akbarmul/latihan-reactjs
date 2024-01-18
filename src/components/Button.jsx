@@ -2,5 +2,5 @@ import React from "react";
 
 // destructing props assignment
 export default function Button({ children }) {
-  return <button className="bg-white border-2 border-sky-400 px-5 py-3 rounded-xl hover:bg-sky-700 cursor-pointer font-bold text-1xl">{children}</button>;
+  return <button className="transition-all py-2 px-3 bg-green-600 text-white font-bold rounded-lg hover:bg-green-800 active:bg-green-900 focus:ring focus:ring-green-400">{children}</button>;
 }

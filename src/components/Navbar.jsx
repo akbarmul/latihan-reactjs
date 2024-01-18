@@ -1,28 +1,37 @@
 import React from "react";
 
 import { NavLink } from "react-router-dom";
+import Button from "./Button";
 
 export default function Navbar() {
   return (
-    <nav className="bg-slate-300 border-2 border-sky-300">
-      <div className="flex justify-between px-5 py-3 container">
-        {/* logo */}
-        <NavLink to="/">
-          <h6 className="text-2xl font-bold text-white">Logo</h6>
-        </NavLink>
-        {/* menus */}
-        <ul className="flex justify-between gap-5">
-          <li className="font-bold text-white">
-            <NavLink to="/">Home</NavLink>
-          </li>
-          <li className="font-bold text-white">
-            <NavLink to="/about">About</NavLink>
-          </li>
-          <li className="font-bold text-white">
-            <NavLink to="/contact">Contact</NavLink>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <>
+      <nav className="bg-white shadow-md">
+        <div className="container flex flex-col lg:flex-row items-center justify-between lg:h-20 h-auto py-8 gap-8">
+          {/* logo */}
+          <NavLink to="/">
+            <img src="/logo.svg" alt="" />
+          </NavLink>
+          {/* menus */}
+          <ul className="flex flex-wrap justify-center gap-3 items-center lg:gap-8">
+            <li className="hover:underline">
+              <NavLink to="/">Features</NavLink>
+            </li>
+            <li className="hover:underline">
+              <NavLink to="/about">Prices</NavLink>
+            </li>
+            <li className="hover:underline">
+              <NavLink to="/about">About</NavLink>
+            </li>
+            <li className="hover:underline">
+              <NavLink to="/contact">Contact</NavLink>
+            </li>
+            <li className="hover:underline">
+              <Button>Get Started</Button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </>
   );
 }

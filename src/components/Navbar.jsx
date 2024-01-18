@@ -10,7 +10,7 @@ export default function Navbar() {
         <div className="container flex flex-col lg:flex-row items-center justify-between lg:h-20 h-auto py-8 gap-8">
           {/* logo */}
           <NavLink to="/">
-            <img src="/logo.svg" alt="" />
+            <img src="/logo.svg" alt="logo" />
           </NavLink>
           {/* menus */}
           <ul className="flex flex-wrap justify-center gap-3 items-center lg:gap-8">

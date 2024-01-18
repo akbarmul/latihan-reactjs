@@ -22,7 +22,7 @@ export default function layout({ children }) {
               <NavLink to="/">Features</NavLink>
             </li>
             <li className="hover:underline">
-              <NavLink to="/about">Prices</NavLink>
+              <NavLink to="/prices">Prices</NavLink>
             </li>
             <li className="hover:underline">
               <NavLink to="/about">About</NavLink>
@@ -36,12 +36,12 @@ export default function layout({ children }) {
         <ul className="flex items-center gap-4 justify-end text-2xl mx-auto lg:mx-0 mt-3 lg:mt-0">
           <li>
             <NavLink to="#">
-              <span class="iconify" data-icon="ic:baseline-facebook"></span>
+              <span className="iconify" data-icon="ic:baseline-facebook"></span>
             </NavLink>
           </li>
           <li>
             <NavLink to="#">
-              <span class="iconify" data-icon="mdi:twitter"></span>
+              <span className="iconify" data-icon="mdi:twitter"></span>
             </NavLink>
           </li>
         </ul>

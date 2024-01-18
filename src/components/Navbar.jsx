@@ -18,7 +18,7 @@ export default function Navbar() {
               <NavLink to="/">Features</NavLink>
             </li>
             <li className="hover:underline">
-              <NavLink to="/about">Prices</NavLink>
+              <NavLink to="/prices">Prices</NavLink>
             </li>
             <li className="hover:underline">
               <NavLink to="/about">About</NavLink>

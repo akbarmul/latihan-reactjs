@@ -6,7 +6,7 @@ export default function SectionAbout() {
   return (
     <>
       <main>
-        <section className="container mb-28">
+        <section className="container mb-32">
           <h1 className="my-10 font-bold text-3xl sm:text-5xl text-center">About Us</h1>
           <div className="flex sm:flex-row flex-col">
             <div className="sm:w-1/2 w-full order-2 sm:order-1">

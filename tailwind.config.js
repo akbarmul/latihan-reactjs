@@ -13,6 +13,9 @@ export default {
       },
       center: true,
     },
+    fontFamily: {
+      sans: ["inter", "sans-serif"],
+    },
   },
   plugins: [],
 };

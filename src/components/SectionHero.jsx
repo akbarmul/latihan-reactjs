@@ -35,7 +35,9 @@ export default function SectionHero() {
         {/* hero section */}
         <section className="container flex py-10 gap-5 lg:flex-row flex-col">
           <div className="w-full lg:order-1 order-2">
-            <h1 className="text-5xl font-bold mb-9">Landing page for your online service</h1>
+            <h1 className="sm:text-5xl text-3xl font-bold mb-9">
+              Landing page for <br /> your online service
+            </h1>
             <p className="text-gray-600 mb-10">Sed ea enim et expedita quo. Sint consequuntur nobis expedita moll itia voluptatem aut est a quia.</p>
             <ButtonArrow>
               Learn More
@@ -75,7 +77,7 @@ export default function SectionHero() {
         <section className="my-10 bg-gray-200" id="feat">
           <div className="container p-20">
             <div className="w-1/3 mx-auto my-10">
-              <h1 className="text-4xl font-bold text-center">Our service features</h1>
+              <h1 className="sm:text-4xl text-2xl font-bold text-center">Our service features</h1>
               <p className="text-center">Aliquid officiis cumque sunt sint. Et quo culpa. Enim sed natus molestiae fugiat cum consequatur quia sunt.</p>
             </div>
             <div className="grid lg:grid-cols-4 gap-5 sm:grid-cols-2 grid-cols-1">
@@ -102,7 +104,7 @@ export default function SectionHero() {
         <section className="my-5">
           <div className="container py-10">
             <div className="w-1/3 mx-auto my-10">
-              <h1 className="text-4xl font-bold text-center">Testimonials</h1>
+              <h1 className="sm:text-4xl text-2xl font-bold text-center">Testimonials</h1>
               <p className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, repellendus numquam.</p>
             </div>
             <div className="grid lg:grid-cols-3 sm:grid-cols-1 grid-cols-1 gap-10">

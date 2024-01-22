@@ -10,7 +10,7 @@ export default function SectionPrices() {
       <main>
         <section className="py-10">
           <div className="container">
-            <h1 className="text-5xl text-center font-bold">Lets Start Together</h1>
+            <h1 className="sm:text-5xl text-3xl text-center font-bold">Lets Start Together</h1>
             <div className="grid sm:grid-cols-2 sm:mx-10 mx-0 md:mx-20 lg:mx-25 xl:mx-40 py-14 gap-10 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 grid-cols-1">
               <CardPrices>
                 <h3 className="text-3xl font-bold text-green-700">

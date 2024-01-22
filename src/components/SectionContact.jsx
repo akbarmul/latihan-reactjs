@@ -8,8 +8,8 @@ export default function SectionContact() {
         <section className="container my-14">
           <div className="flex flex-col sm:flex-row">
             <div className="sm:w-1/2 w-full">
-              <h1 className="font-bold text-5xl mb-5">Let's Talk</h1>
-              <p className="text-xl mb-10">Have some big idea or brand to develop and need help? Then reach out we'd love to hear about your project and provide help</p>
+              <h1 className="font-bold sm:text-5xl text-3xl mb-5">Let's Talk</h1>
+              <p className="text-xl mb-10 text-balance">Have some big idea or brand to develop and need help? Then reach out we'd love to hear about your project and provide help</p>
               <h3 className="font-semibold mb-2 text-xl">Email</h3>
               <p className="text-lg mb-10">beebs@gmail.com</p>
               <h3 className="font-semibold text-xl mb-3">Socials</h3>

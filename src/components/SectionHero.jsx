@@ -100,7 +100,7 @@ export default function SectionHero() {
             </div>
           </div>
         </section>
-        {/* sec testimoni */}
+        {/* sec testimoni. */}
         <section className="my-5">
           <div className="container py-10">
             <div className="w-1/3 mx-auto my-10">

@@ -37,8 +37,8 @@ export default function SectionContact() {
                   <label className="block mb-2 text-lg" htmlFor="type">
                     What service are you interested in
                   </label>
-                  <select className="w-full bg-slate-100 rounded-lg py-2" name="type" id="type">
-                    <option value="sel" selected disabled>
+                  <select defaultValue={"sel"} className="w-full bg-slate-100 rounded-lg py-2" name="type" id="type">
+                    <option value="sel" disabled>
                       Select Project Type
                     </option>
                     <option value="web">Website</option>

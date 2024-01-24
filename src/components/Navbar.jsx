@@ -3,6 +3,8 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import Button from "./Button";
 
+import { NavHashLink } from "react-router-hash-link";
+
 export default function Navbar() {
   return (
     <>
@@ -15,7 +17,9 @@ export default function Navbar() {
           {/* menus */}
           <ul className="flex flex-wrap justify-center gap-3 items-center lg:gap-8">
             <li className="hover:underline">
-              <NavLink to="/">Features</NavLink>
+              <NavHashLink smooth to="/#feat">
+                Features
+              </NavHashLink>
             </li>
             <li className="hover:underline">
               <NavLink to="/prices">Prices</NavLink>
